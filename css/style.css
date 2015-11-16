@@ -56,12 +56,17 @@ h2 {
     text-align: center;
     padding-top: 10px;
 }
+.first a {
+    background: #000;
+    padding: 0 10px;
+}
 .first_row {
-    height: 2px;
     width: 475px;
     text-align: center;
     display: inline-block;
     background-image: url(../images/first_line.png);
+    background-position: center 19px;
+    background-repeat: repeat-x;
 }
 
 /** Интро (второй блок) **/
