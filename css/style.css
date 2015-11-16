@@ -231,7 +231,12 @@ h2 {
     font-family: 'PT Sans';
 }
 .sixth-head {
-    height: 208px;
+    height: 175px;
+}
+.sixth-head-line {
+    height: 41px;
+    position: relative;
+    background: url("../images/sixth_line.png") top center no-repeat;
 }
 .prime {
     height: 350px;
@@ -245,7 +250,7 @@ h2 {
 }
 .sixth h2 {
     font-size: 40px;
-    padding-top: 75px;
+    padding-top: 30px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 .sixth p {
