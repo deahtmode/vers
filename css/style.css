@@ -9,9 +9,16 @@
          url('../fonts/helveticaneuecyr-medium-webfont.svg#helveticaneuecyrmedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+
+.first_row {
+    height: 2px;
+    width: 475px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(../images/first_line.png);
+}
 
 /** Общие **/
 :focus::-webkit-input-placeholder {
