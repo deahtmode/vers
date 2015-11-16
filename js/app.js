@@ -9,7 +9,10 @@ $(function() {
         $('<div class="demo_column"><span>' +
             ( date.getHours() +':'+ date.getMinutes() +':'+ date.getSeconds()) +
             '</span><i>'+ ('79.8'+parseInt(random)) +'</i></div>')
-            .css({'height' : parseInt(random) + 'px' })
+            .css({
+                'height' : parseInt(random) + 'px',
+                'width' : '12.5%'
+            })
             .appendTo($('.demo .inner')).slideDown(500);
 
     };
