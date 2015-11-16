@@ -230,10 +230,14 @@ h2 {
     display: inline-block;
     width: 133px;
     height: 133px;
-    background-color: #65a951; 
+
     border-radius: 5px;
     box-shadow: 3px 3px #406127;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background: #65a951 url("../images/course_up.png") center 35px no-repeat;
+}
+.link_green:hover {
+    background-color: #69BC51;
 }
 .fifth_link_green {
     padding-top: 115px;
@@ -254,11 +258,15 @@ h2 {
     border-radius: 5px;
     box-shadow: 3px 3px #541422;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    background: url(../images/link_bottom.png);
-    background-repeat: no-repeat;
+    background: #ac2945 url("../images/course-down.png") center 35px no-repeat;
+
     position: relative;
-    background-position: center;
+
 }
+.link_red:hover {
+    background-color: #B21D3D;
+}
+
 .fifth_link_red {
     padding-top: 52px;
 }
@@ -291,7 +299,7 @@ h2 {
 }
 .demo_column {
 
-    
+
     border: 1px solid #9F6500;
     border-width: 1px 1px 0 0;
 
@@ -416,11 +424,10 @@ h2 {
     height: 120px;
 }
 .seventh_row_money {
-    height: 120px;
+    padding: 32px 0 20px;
+
 }
-.seventh_col_money img {
-    padding-top: 30px;
-}
+
 .seventh_row_all {
     height: 240px;
     position: relative;
@@ -428,33 +435,10 @@ h2 {
 }
 .seventh_row_operator {
     height: 120px;
+    display: inline-block;
 }
-.seventh_col_operator {
-    padding-top: 25px;
-}
-.seventh_col_operator_beeline {
-    padding-left: 200px;
-    padding-top: 30px;
-}
-.seventh_col_operator_megafon {
-    padding-right: 190px;
-    padding-top: 37px;
-}
-.seventh_col_money_yandexm {
-    padding-left: 40px;
-}
-.seventh_col_money_qiwi {
-    padding-left: 70px;
-}
-.seventh_col_money_webmoney {
-    padding-left: 105px;
-}
-.seventh_col_money_visa {
-    padding-left: 105px;
-}
-.seventh_col_money_mastercard {
-    padding-left: 105px;
-}
+
+
 .seventh_col_1 {
     padding-left: 0;
     margin-left: -15px;
