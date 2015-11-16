@@ -225,15 +225,69 @@ h2 {
     padding-top: 15px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-.fifth p {
-    padding-top: 10px;
-    font-size: 21px;
+
+
+.fifth .demo {
+    width: 748px;
+    height: 426px;
+    margin-top: 65px;
+    background: #000 url(../images/tablet.png) no-repeat;
+    position: relative;
+}
+.demo .inner {
+    background: #000 url(../images/graph.png);
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    right: 22px;
+    bottom: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.demo_column {
+
+    width:12.5%;
+    border: 1px solid #9F6500;
+    border-width: 1px 1px 0 0;
+
+  align-self: flex-end;
+  position: relative;
+  display: none;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+100,f9b331+100&amp;0.9+41,0.5+82 */
+  background: -moz-linear-gradient(top,  rgba(249,179,49,0.9) 41%, rgba(249,179,49,0.5) 82%, rgba(249,179,49,0.5) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(249,179,49,0.9) 41%,rgba(249,179,49,0.5) 82%,rgba(249,179,49,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(249,179,49,0.9) 41%,rgba(249,179,49,0.5) 82%,rgba(249,179,49,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f9b331', endColorstr='#80f9b331',GradientType=0 ); /* IE6-9 */
+
+
+}
+.demo_column span{
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    right: 20px;
+    font-size: 10px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.fifth_conditions {
+    font-size: 30px;
+}
+.fifth_conditions span {
+    font-size: 20px;
     color: #555c65;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
-.fifth-text {
+.fifth_conditions b {
     color: white;
-    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 .sixth {
     height: 1075px;
