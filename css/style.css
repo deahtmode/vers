@@ -91,7 +91,7 @@ h2 {
 .second_corner {
     height: 31px;
     margin-top: -10px;
-    background-image: url(../images/first_corner.png);
+    background-image: url(../images/second_corner.png);
     background-position: center bottom;
     background-repeat: no-repeat;
 }
