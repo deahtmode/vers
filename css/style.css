@@ -88,7 +88,13 @@ h2 {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-
+.second_corner {
+    height: 31px;
+    margin-top: -10px;
+    background-image: url(../images/first_corner.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
 .earn {
     padding-top: 15px;
 }
@@ -193,7 +199,8 @@ h2 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 .fast-img {
-    padding-top: 30px;
+    padding-top: 25px;
+    height: 335px;
 }
 .fourth p {
     font-size: 21px;
