@@ -226,6 +226,47 @@ h2 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.link_green {
+    display: inline-block;
+    width: 133px;
+    height: 133px;
+    background-color: #65a951; 
+    border-radius: 5px;
+    box-shadow: 3px 3px #406127;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.fifth_link_green {
+    padding-top: 115px;
+}
+.fifth_link_green a {
+    text-decoration: none;
+    color: white;
+}
+.fifth_link_red a {
+    text-decoration: none;
+    color: white;
+}
+.link_red {
+    display: inline-block;
+    width: 133px;
+    height: 133px;
+
+    border-radius: 5px;
+    box-shadow: 3px 3px #541422;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../images/link_bottom.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.fifth_link_red {
+    padding-top: 52px;
+}
+
+.fifth_link_wrapper p {
+    padding-top: 90px;
+}
+
 
 .fifth .demo {
     width: 748px;
