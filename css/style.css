@@ -29,6 +29,15 @@ body {
 .yellow {
     color: #ffd200;
 }
+.earn-button {
+    font-size: 22px;
+    margin-top: 20px;
+    background-color: #ffd200;
+    padding: 13px 16px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    box-shadow: 3px 3px #416996;
+    font-weight: 700;
+}
 
 /** Шапка (первый блок) **/
 .first {
@@ -63,14 +72,7 @@ body {
 .fast-register h3 {
     font-size: 30px;
 }
-.second_earn-button {
-    font-size: 22px;
-    margin-top: 20px;
-    background-color: #ffd200;
-    padding: 13px 16px;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    box-shadow: 3px 3px #416996;
-}
+
 .second_agreement {
     color: #fff;
     font-size: 14px;
