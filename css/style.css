@@ -1,3 +1,12 @@
+/** Шрифты **/
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
+}
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
+
+/** Общие **/
 :focus::-webkit-input-placeholder {
     color: transparent
 }
@@ -14,21 +23,19 @@ button:active, button:focus {
     outline: 0;
     border-color: transparent;
 }
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('WebFont.eot');
-    src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');
-}
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 body {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/** Шапка (первый блок) **/
 .first {
     background-color: #000000;
     height: 60px;
     text-align: center;
     padding-top: 10px;
 }
+
+/** Интро (второй блок) **/
 .second {
     height: 415px;
     text-align: center;
@@ -96,6 +103,9 @@ body {
 .second_form::-moz-placeholder                {color: rgba(226, 223, 239, 0.9) }
 .second_form:-moz-placeholder                 {color: rgba(226, 223, 239, 0.9) }
 .second_form:-ms-input-placeholder            {color: rgba(226, 223, 239, 0.9) }
+
+
+
 .third {
     height: 480px;
     text-align: center;
