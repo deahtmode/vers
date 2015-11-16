@@ -12,13 +12,6 @@
 }
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 
-.first_row {
-    height: 2px;
-    width: 475px;
-    text-align: center;
-    display: inline-block;
-    background-image: url(../images/first_line.png);
-}
 
 /** Общие **/
 :focus::-webkit-input-placeholder {
@@ -62,6 +55,13 @@ h2 {
     height: 60px;
     text-align: center;
     padding-top: 10px;
+}
+.first_row {
+    height: 2px;
+    width: 475px;
+    text-align: center;
+    display: inline-block;
+    background-image: url(../images/first_line.png);
 }
 
 /** Интро (второй блок) **/
@@ -236,6 +236,7 @@ h2 {
 }
 .sixth img {
     padding-top: 50px;
+    padding-right: 300px;
 }
 .sixth h2 {
     font-size: 40px;
