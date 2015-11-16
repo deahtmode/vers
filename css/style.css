@@ -349,7 +349,8 @@ h2 {
     padding-left: 10px;
 }
 .eighth {
-    height: 960px;
+    height: 793px;
+    overflow: hidden;
     text-align: center;
     font-family: 'PT Sans';
 }
