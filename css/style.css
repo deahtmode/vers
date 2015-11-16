@@ -26,6 +26,9 @@ button:active, button:focus {
 body {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
+.yellow {
+    color: #ffd200;
+}
 
 /** Шапка (первый блок) **/
 .first {
@@ -49,9 +52,7 @@ body {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-.yellow {
-    color: #ffd200;
-}
+
 .earn {
     padding-top: 22px;
 }
@@ -62,11 +63,9 @@ body {
 .fast-register h3 {
     font-size: 30px;
 }
-.button {
-    padding-top: 15px;
-}
 .second_earn-button {
     font-size: 22px;
+    margin-top: 20px;
     background-color: #ffd200;
     padding: 13px 16px;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
