@@ -68,7 +68,12 @@ h2 {
     background-position: center 19px;
     background-repeat: repeat-x;
 }
-
+.first_corner {
+    height: 49px;
+    background-image: url(../images/first_corner.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
 /** Интро (второй блок) **/
 .second {
     height: 415px;
