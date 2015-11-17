@@ -283,7 +283,7 @@ h2 {
 .fifth .demo {
     width: 748px;
     height: 426px;
-    margin-top: 65px;
+    margin-top: 4px;
     background: #000 url(../images/tablet.png) no-repeat;
     position: relative;
 }
@@ -327,6 +327,21 @@ h2 {
     border-radius: 3px;
     padding: 3px 6px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row_fifth_conditions_text {
+    font-size: 18px;
+    padding-top: 33px;
+}
+.row_fifth_conditions_text span {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #555c65;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.row_fifth_conditions_text b {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 
