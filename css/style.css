@@ -41,7 +41,7 @@ h2 {
 }
 .earn-button {
     font-size: 22px;
-    margin-top: 12px;
+    margin-top: 25px;
     background-color: #ffd200;
     padding: 13px 16px;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -56,7 +56,7 @@ h2 {
     text-align: center;
     padding-top: 10px;
 }
-.first a {
+.first img {
     background: #000;
     padding: 0 10px;
 }
@@ -69,7 +69,7 @@ h2 {
     background-repeat: repeat-x;
 }
 .first_corner {
-    height: 49px;
+    height: 36px;
     background-image: url(../images/first_corner.png);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -117,11 +117,15 @@ h2 {
 .second_agreement img{
     line-height: 24px;
 }
+.second_agreement a {
+    color: white;
+}
 .second_agreement span{
     vertical-align: middle;
     margin: 3px 0 0 3px;
     font-weight: 400;
     display: inline-block;
+    font-size: 8px;
 }
 .second_form {
     background-color: #202e41;
@@ -353,6 +357,15 @@ h2 {
     position: relative;
     background: url("../images/sixth_line.png") top center no-repeat;
 }
+.sixth_agreement p{
+    text-align: center;
+    font-size: 8px;
+    padding-top: 25px;
+    
+}
+.sixth_agreement a {
+    color: black;
+}
 .prime {
     height: 350px;
 }
@@ -368,7 +381,7 @@ h2 {
     padding-top: 30px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-.sixth p {
+.row_sixth p {
     font-size: 18px;
     text-align: left;
     padding-top: 30px;
@@ -524,6 +537,13 @@ h2 {
     background: url("../images/ninth_line.png") center 20px no-repeat;
     padding-top: 20px;
 
+}
+.ninth_agreement {
+    padding-top: 25px;
+    font-size: 8px;
+}
+.ninth_agreement a {
+    color: black;
 }
 .ninth_header_text {
     padding-top: 40px;
