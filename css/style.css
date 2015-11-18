@@ -132,7 +132,7 @@ input {
     margin: 3px 0 0 3px;
     font-weight: 400;
     display: inline-block;
-    font-size: 8px;
+    font-size: 11px;
 }
 .second_form {
     background-color: #202e41;
@@ -387,7 +387,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .sixth_agreement p{
     text-align: center;
-    font-size: 8px;
+    font-size: 11px;
     padding-top: 25px;
 
 }
@@ -571,7 +571,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .ninth_agreement {
     padding-top: 25px;
-    font-size: 8px;
+    font-size: 11px;
 }
 .ninth_agreement a {
     color: black;
