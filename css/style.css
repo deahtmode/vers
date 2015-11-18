@@ -88,13 +88,13 @@ h2 {
     color: white;
     font-family: 'PT Sans Narrow', sans-serif;
 }
-.second_corner {
+/*.second_corner {
     height: 31px;
     margin-top: -10px;
     background-image: url(../images/second_corner.png);
     background-position: center bottom;
     background-repeat: no-repeat;
-}
+}*/
 .earn {
     padding-top: 15px;
 }
@@ -432,6 +432,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     height: 600px;
     text-align: center;
     font-family: 'PT Sans';
+        margin-bottom: 20px;
 }
 .seventh_header {
     height: 180px;
