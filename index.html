@@ -16,7 +16,7 @@
 
     <div class="first container-fluid">
         <div class="container">
-            <div class="row first_row">               
+            <div class="row first_row">
                     <img src="images/ff-logo.png">
             </div>
         </div>
@@ -172,7 +172,25 @@
         </div>
     </div>
 
-    <div class="fifth container-fluid">
+    <div class="fifth container-fluid" style="position: relative;">
+        <div style="z-index: 50000; background-color: rgba(17, 17, 17, 0.56); position: absolute; top: 0; left: 0; right:0;bottom: 0;">
+            <form action="">
+                <fieldset>
+                    <div style="width: 1000px; margin: 130px auto 0">
+                        <input class="sixth_form" type="text" placeholder="Ваше имя" size="35" style="height:37px; opacity: 1; display: inline-block">
+
+                        <input class="sixth_form" type="text" placeholder="Ваше e-mail" size="35" style="height:37px; opacity: 1; display: inline-block">
+
+                        <input class="sixth_form" type="text" placeholder="Ваш телефон" size="35" style="height:37px; opacity: 1; display: inline-block">
+
+                        <button type="submit" class="btn earn-button">
+                            НАЧАТЬ ЗАРАБАТЫВАТЬ
+                        </button>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -182,10 +200,14 @@
             <div class="row">
                 <div class="fifth_conditions">
                     <span>Выберите, курс <b>EUR/USD</b> пойдет вверх или вниз?</span>
-                    
+
                 </div>
             </div>
-            <div class="row row_fifth_conditions">
+            <div class="row row_fifth_conditions" >
+
+
+
+
                 <div class="col-md-9">
                     <div class="row_fifth_conditions_text">
                         <span>Инвестиция</span> <b>5000 руб</b>
@@ -199,11 +221,11 @@
                 <div class="col-md-3">
                     <div class="fifth_link_wrapper">
                         <div class="fifth_link_green">
-                            <a href="#" class="link_green"><p>КУРС ВЫШЕ</p></a>
+                            <button class="link_green"><p>КУРС ВЫШЕ</p></button>
                         </div>
 
                         <div class="fifth_link_red">
-                            <a href="#" class="link_red"><p>КУРС НИЖЕ</p></a>
+                            <button class="link_red"><p>КУРС НИЖЕ</p></button>
                         </div>
                     </div>
                 </div>
