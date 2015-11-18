@@ -36,6 +36,13 @@ body {
 h2 {
     font-weight: 700;
 }
+h3 {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+}
+input {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+
+}
 .yellow {
     color: #ffd200;
 }
@@ -437,7 +444,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .seventh_header {
     height: 180px;
     position: relative;
-    background: url("../images/seventh_line.png") top center no-repeat;
+    /*background: url("../images/seventh_line.png") top center no-repeat;*/
+    border-top: 3px dashed #333;
+    margin-top: 40px;
 }
 .seventh_header_text {
     padding-top: 40px;
