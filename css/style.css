@@ -467,7 +467,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     height: 180px;
     position: relative;
     /*background: url("../images/seventh_line.png") top center no-repeat;*/
-
+    border-top: 3px dashed gray;
     margin-top: 40px;
 }
 
@@ -562,7 +562,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     height: 530px;
     text-align: center;
     background: url("../images/bg_ninth.png");
-    background-position: center center;
+    background-position: center -2px;
 }
 .ninth_form {
     background-color: #202e41;
@@ -611,6 +611,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .ninth_header_text {
     padding-top: 40px;
     text-align: center;
+
 }
 .ninth_header_text h2 {
     font-size: 40px;
