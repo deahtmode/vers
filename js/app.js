@@ -20,7 +20,7 @@ $(function() {
                     startPoint = Number($('.demo_column i').last().text());
                 }
 
-                startPoint -= Math.random()*35+2;
+                startPoint -= Math.random()*15+2;
 
                 var random = startPoint;
 
