@@ -74,6 +74,10 @@ $(function() {
         setTimeout(showPopup, 13000);
     });
 
+    function showPopup() {
+        $('.popup').fadeIn();
+    }
+
 
     $('.link_red').on('click', function(e) {
         clearInterval(standartFactor);
