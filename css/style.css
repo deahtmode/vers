@@ -110,7 +110,8 @@ input {
     color: white;
 }
 .fast-register h3 {
-    font-size: 26px;
+    font-size: 23px;
+    line-height: 28px;
 }
 
 .second_agreement {
@@ -137,12 +138,15 @@ input {
 .second_form {
     background-color: #202e41;
     border-radius: 5px;
-    border: 1px solid #bdc0c4;
+    border: 1px solid #FFD200;
     text-align: center;
     color: white;
     font-size: 20px;
     width: 285px;
     margin-right: 5px;
+}
+.second_form:focus {
+    border-color: transparent;
 }
 .second_form::-webkit-input-placeholder       {color: rgba(226, 223, 239, 0.9) }
 .second_form::-moz-placeholder                {color: rgba(226, 223, 239, 0.9) }
